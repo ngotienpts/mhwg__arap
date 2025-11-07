@@ -12,6 +12,9 @@
     .d-2xl-grid {
         display: grid;
     }
+    .w-2xl-full {
+        width: 100% ;
+    }
     // --------------------------------------------------------------------header
     .w-1290 {
         max-width: 1230px;
@@ -68,6 +71,9 @@
     }
     .d-xl-grid {
         display: grid;
+    }
+    .w-xl-full {
+        width: 100% ;
     }
     // --------------------------------------------------------------------header
     .w-1290 {
@@ -206,6 +212,9 @@
     .d-lg-grid {
         display: grid;
     }
+    .w-lg-full {
+        width: 100% ;
+    }
     // --------------------------------------------------------------------header
     // -------------------------------------------------------------------- index
     // --------------------------------------------------------------------cate
@@ -319,23 +328,41 @@
     .w-1290 {
         max-width: 690px;
     }
+    .pl-md-0 {
+        padding-left: 0 ;
+    }
+    .pr-md-0 {
+        padding-right: 0 ;
+    }
+    .pt-md-20 {
+        padding-top: 20px;
+    }
+    .pt-md-30 {
+        padding-top: 30px;
+    }
+    .pt-md-40 {
+        padding-top: 40px;
+    }
     .mt-md-20 {
         margin-top: 20px;
     }
     .mb-md-20 {
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .mt-md-30 {
         margin-top: 30px;
     }
     .mb-md-30 {
-        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .mt-md-40 {
         margin-top: 40px;
     }
     .mb-md-40 {
-        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .w-md-full {
+        width: 100% !important;
     }
     // --------------------------------------------------------------------header
     .header {
@@ -471,7 +498,27 @@
     .d-sm-grid {
         display: grid;
     }
-
+    .w-sm-50 {
+        width: 50% !important;
+    }
+    .w-sm-60 {
+        width: 60% !important;
+    }
+    .w-sm-70 {
+        width: 70% !important;
+    }
+    .w-sm-80 {
+        width: 80% !important;
+    }
+    .w-sm-full {
+        width: 100% !important;
+    }
+    .pl-sm-0 {
+        padding-left: 0 ;
+    }
+    .pr-sm-0 {
+        padding-right: 0 ;
+    }
     // --------------------------------------------------------------------header
     .w-wrapper {
         padding-left: 20px;

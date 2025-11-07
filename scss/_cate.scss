@@ -229,30 +229,30 @@
 }
 
 .chapter-primary--2 {
-    background-color: rgb(122,169,215);
+    background-color: #075b81;
     .chapter-primary__heading-inner {
-        background-color: rgb(8,108,183);
+        background-color: #52c5d6;
     }
     .chapter-primary__img {
-        background-color: rgb(8,108,183);
+        background-color: #52c5d6;
     }
 }
 .chapter-primary--3 {
-    background-color: rgb(102,190,119);
+    background-color: #deb9d6;
     .chapter-primary__heading-inner {
-        background-color: rgb(0,159,84);
+        background-color: #a13d96;
     }
     .chapter-primary__img {
-        background-color: rgb(0,159,84);
+        background-color: #a13d96;
     }
 }
 .chapter-primary--4 {
-    background-color: rgb(246,198,100);
+    background-color: #f9c5c5;
     .chapter-primary__heading-inner {
-        background-color: rgb(249,168,47);
+        background-color: #f4918f;
     }
     .chapter-primary__img {
-        background-color: rgb(249,168,47);
+        background-color: #f4918f;
     }
 }
 .chapter-primary--5 {
@@ -266,6 +266,15 @@
 }
 .chapter-primary--5-1 {
     background-color: #00b2b2;
+    .chapter-primary__heading-inner {
+        background-color: #bde5ed;
+    }
+    .chapter-primary__img {
+        background-color: #bde5ed;
+    }
+}
+.chapter-primary--5-2 {
+    background-color: #52c5d6;
     .chapter-primary__heading-inner {
         background-color: #bde5ed;
     }
@@ -358,6 +367,15 @@
         strong {
             font-weight: bold;
         }
+        ul {
+            padding-left: 30px;
+            list-style: disc;
+
+            li {
+                margin-bottom: 10px;
+                font-size: 17px;
+            }
+        }
         .note {
             display: flex;
             align-items: center;
@@ -379,6 +397,42 @@
                 background-color: #FBF3BC;
                 .note-img__inner {
                     background-color: #F5AE43;
+                }
+            }
+
+            &--green {
+                border-color: #d3ecd6;
+                background-color: #d3ecd6;
+                .note-img__inner {
+                    background-color: #6fc279;
+                }
+            }
+            &--cyan-52c {
+                border-color: #52c5d6;
+                background-color: #d4effb;
+                .note-img__inner {
+                    background-color: #52c5d6;
+                }
+            }
+            &--cyan-52c {
+                border-color: #52c5d6;
+                background-color: #d4effb;
+                .note-img__inner {
+                    background-color: #52c5d6;
+                }
+            }
+            &--pink-a13 {
+                border-color: #a13d96;
+                background-color: #deb9d6;
+                .note-img__inner {
+                    background-color: #a13d96;
+                }
+            }
+            &--pink-f9c {
+                border-color: #f9c5c5;
+                background-color: #f9c5c5;
+                .note-img__inner {
+                    background-color: #f4918f;
                 }
             }
 
@@ -415,6 +469,7 @@
                 }
             }
         }
+
         &.chapter-1 {
             .heading-taiwan-one {
                 background-color: #009F54;

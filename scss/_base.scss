@@ -147,6 +147,9 @@ img {
 .w-92 {
     width: 92%;
 }
+.w-fit {
+    width: fit-content;
+}
 /*=================================================================*/
 .d-3xl-none {
     display: none;
@@ -301,8 +304,14 @@ img {
 .text-cyan-00b {
     color: #00b2b2;
 }
+.text-cyan-52c {
+    color: #52c5d6;
+}
 .text-pink-f1 {
     color: #f16977;
+}
+.text-pink-a13 {
+    color: #a13d96;
 }
 .text-purple-67 {
     color: #6751a2;
@@ -327,6 +336,9 @@ img {
 .bg-green-ba {
     background-color: #BAE1BF;
 }
+.bg-green-e2 {
+    background-color: #E2F2E2;
+}
 .bg-blue-086 {
     background-color: #086CB7;
 }
@@ -342,14 +354,26 @@ img {
 .bg-cyan-00b {
     background-color: #00b2b2;
 }
+.bg-cyan-52c {
+    background-color: #52c5d6;
+}
 .bg-cyan-c3e {
     background-color: #c3e7e5;
 }
 .bg-pink-f1 {
     background-color: #f16977;
 }
+.bg-pink-a13 {
+    background-color: #a13d96;
+}
+.bg-pink-deb {
+    background-color: #deb9d6;
+}
 .bg-pink-fce {
     background-color: #fce1e6;
+}
+.bg-pink-f9c {
+    background-color: #f9c5c5;
 }
 .bg-purple-67 {
     background-color: #6751a2;
@@ -383,6 +407,9 @@ img {
 }
 .fw-900 {
     font-weight: 900;
+}
+.fw-bold {
+    font-weight: bold;
 }
 /*=================================================================*/
 .pt-4 {
@@ -1168,8 +1195,17 @@ img {
 .border-cyan-00b {
     border: 1px solid #00b2b2;
 }
+.border-cyan-52c {
+    border: 1px solid #52c5d6;
+}
 .border-pink-f1 {
     border: 1px solid #f16977;
+}
+.border-pink-a13 {
+    border: 1px solid #a13d96;
+}
+.border-pink-f9c {
+    border: 1px solid #f9c5c5;
 }
 .border-purple-67 {
     border: 1px solid #6751a2;
@@ -1218,5 +1254,46 @@ img {
     justify-content: center;
     img {
         object-fit: contain;
+    }
+}
+.icon-16 img {
+    width: 16px;
+    height: auto;
+}
+.icon-20 img {
+    width: 20px;
+    height: auto;
+}
+.icon-30 img {
+    width: 30px;
+    height: auto;
+}
+.icon-36 img {
+    width: 36px;
+    height: auto;
+}
+.img-absolute {
+    position: absolute;
+}
+.right-0 {
+    right: 0;
+}
+.top-20 {
+    top: 20px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear-both {
+    clear: both;
+}
+.clear-fix {
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
     }
 }
