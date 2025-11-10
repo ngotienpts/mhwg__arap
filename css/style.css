@@ -305,6 +305,10 @@ img {
   width: fit-content;
 }
 
+.w-100px {
+  width: 100px;
+}
+
 /*=================================================================*/
 .d-3xl-none {
   display: none;
@@ -558,6 +562,14 @@ img {
   background-color: #086CB730;
 }
 
+.bg-blue-508 {
+  background-color: #5080c1;
+}
+
+.bg-blue-cad {
+  background-color: #cad9ec;
+}
+
 .bg-cyan-49 {
   background-color: #49c8eb;
 }
@@ -592,6 +604,10 @@ img {
 
 .bg-pink-f9c {
   background-color: #f9c5c5;
+}
+
+.bg-pink-c66 {
+  background-color: #c66aaa;
 }
 
 .bg-purple-67 {
@@ -1435,6 +1451,10 @@ img {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 /*=================================================================*/
 .col-2 {
   grid-template-columns: repeat(2, 1fr);
@@ -1621,6 +1641,10 @@ img {
   border: 1px solid #8fa8d5;
 }
 
+.border-blue-508 {
+  border: 1px solid #5080c1;
+}
+
 .border-yellow-f5 {
   border: 1px solid #f5ae43;
 }
@@ -1647,6 +1671,10 @@ img {
 
 .border-pink-f9c {
   border: 1px solid #f9c5c5;
+}
+
+.border-pink-c66 {
+  border: 1px solid #c66aaa;
 }
 
 .border-purple-67 {
@@ -2545,13 +2573,13 @@ img {
 }
 
 .chapter-primary--5 {
-  background-color: #49c8eb;
+  background-color: #adc4e5;
 }
 .chapter-primary--5 .chapter-primary__heading-inner {
-  background-color: #0c96d4;
+  background-color: #5080c1;
 }
 .chapter-primary--5 .chapter-primary__img {
-  background-color: #0c96d4;
+  background-color: #5080c1;
 }
 
 .chapter-primary--5-1 {
@@ -2575,33 +2603,43 @@ img {
 }
 
 .chapter-primary--6 {
-  background-color: #f69f92;
+  background-color: #eaafd0;
 }
 .chapter-primary--6 .chapter-primary__heading-inner {
-  background-color: #f16977;
+  background-color: #c66aaa;
 }
 .chapter-primary--6 .chapter-primary__img {
-  background-color: #f16977;
+  background-color: #c66aaa;
 }
 
 .chapter-primary--7 {
-  background-color: #b398c7;
+  background-color: #e77981;
 }
 .chapter-primary--7 .chapter-primary__heading-inner {
-  background-color: #6751a2;
+  background-color: #b00540;
 }
 .chapter-primary--7 .chapter-primary__img {
-  background-color: #6751a2;
+  background-color: #b00540;
 }
 
 .chapter-primary--8 {
-  background-color: #79a9d6;
+  background-color: #a9a8d2;
 }
 .chapter-primary--8 .chapter-primary__heading-inner {
-  background-color: #1e73be;
+  background-color: #503f99;
 }
 .chapter-primary--8 .chapter-primary__img {
-  background-color: #1e73be;
+  background-color: #503f99;
+}
+
+.chapter-primary--9 {
+  background-color: #a97196;
+}
+.chapter-primary--9 .chapter-primary__heading-inner {
+  background-color: #6f2471;
+}
+.chapter-primary--9 .chapter-primary__img {
+  background-color: #6f2471;
 }
 
 .chapter-primary--iom {
@@ -2719,6 +2757,20 @@ img {
 }
 .chapter-secondary__right .note--pink-f9c .note-img__inner {
   background-color: #f4918f;
+}
+.chapter-secondary__right .note--pink-c66 {
+  border-color: #eed2e5;
+  background-color: #eed2e5;
+}
+.chapter-secondary__right .note--pink-c66 .note-img__inner {
+  background-color: #c66aaa;
+}
+.chapter-secondary__right .note--blue-cad {
+  border-color: #cad9ec;
+  background-color: #cad9ec;
+}
+.chapter-secondary__right .note--blue-cad .note-img__inner {
+  background-color: #5080c1;
 }
 .chapter-secondary__right .note-img {
   width: 15%;
@@ -3198,6 +3250,74 @@ img {
 }
 .chapter-secondary__right table tbody tr:last-child td:last-child {
   border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right table.table-border-radius-20 th:first-child {
+  border-width: 2px 0 2px 2px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-radius-20 th:last-child {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-radius-20 td:first-child {
+  border-width: 0 0 2px 2px;
+  border-right: 0;
+}
+.chapter-secondary__right table.table-border-radius-20 td:last-child {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right table.table-border-pink-f9c th {
+  border-color: #f9c5c5;
+  background-color: #f4918f;
+}
+.chapter-secondary__right table.table-border-pink-f9c th:first-child {
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-pink-f9c th:last-child {
+  border-color: #f9c5c5;
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-pink-f9c td {
+  border-color: #f9c5c5;
+}
+.chapter-secondary__right table.table-border-pink-f9c td:last-child {
+  border-color: #f9c5c5;
+}
+.chapter-secondary__right table.table-border-blue-508 th {
+  border-color: #5080c1;
+  background-color: #cad9ec;
+}
+.chapter-secondary__right table.table-border-blue-508 th:first-child {
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-blue-508 th:last-child {
+  border-color: #5080c1;
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-blue-508 td {
+  border-color: #5080c1;
+}
+.chapter-secondary__right table.table-border-blue-508 td:last-child {
+  border-color: #5080c1;
+}
+.chapter-secondary__right table.table-border-pink-c66 th {
+  border-color: #c66aaa;
+  background-color: #eaafd0;
+}
+.chapter-secondary__right table.table-border-pink-c66 th:first-child {
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-pink-c66 th:last-child {
+  border-color: #c66aaa;
+  overflow: hidden;
+}
+.chapter-secondary__right table.table-border-pink-c66 td {
+  border-color: #c66aaa;
+}
+.chapter-secondary__right table.table-border-pink-c66 td:last-child {
+  border-color: #c66aaa;
 }
 .chapter-secondary__right .table-2-col {
   border-collapse: collapse;
@@ -4121,6 +4241,40 @@ img {
   order: 1;
   margin-left: 0;
   margin-right: 20px;
+}
+
+.block-document {
+  position: relative;
+  overflow: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.block-document__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.block-document__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.block-document__container {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+.block-document__heading {
+  border-bottom: 2px solid #5080c163;
+  padding-bottom: 15px;
+}
+.block-document__left {
+  border-right: 2px solid #5080c163;
+}
+.block-document__left, .block-document__right {
+  padding: 15px;
 }
 
 .detail-content figure {
