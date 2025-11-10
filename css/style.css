@@ -610,6 +610,14 @@ img {
   background-color: #c66aaa;
 }
 
+.bg-pink-b00 {
+  background-color: #b00540;
+}
+
+.bg-pink-f9c {
+  background-color: #f9c5c5;
+}
+
 .bg-purple-67 {
   background-color: #6751a2;
 }
@@ -1675,6 +1683,10 @@ img {
 
 .border-pink-c66 {
   border: 1px solid #c66aaa;
+}
+
+.border-pink-b00 {
+  border: 1px solid #b00540;
 }
 
 .border-purple-67 {
@@ -2764,6 +2776,13 @@ img {
 }
 .chapter-secondary__right .note--pink-c66 .note-img__inner {
   background-color: #c66aaa;
+}
+.chapter-secondary__right .note--pink-b00 {
+  border-color: #f9c5c5;
+  background-color: #f9c5c5;
+}
+.chapter-secondary__right .note--pink-b00 .note-img__inner {
+  background-color: #b00540;
 }
 .chapter-secondary__right .note--blue-cad {
   border-color: #cad9ec;

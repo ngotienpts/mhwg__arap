@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./images/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon/favicon-16x16.png"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./images/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- end favicon -->
+        <title>Handbook Arap - Sổ Tay SỨC KHỎE Cho người lao động VIỆT NAM làm việc tại Ả Rập</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap"
+            rel="stylesheet"
+        />
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- header -->
+        <header id="header" class="header relative js__stickyHeader">
+            <!-- pc -->
+            <div class="header-container w-1290">
+                <div class="header-top d-3xl-flex items-center justify-between">
+                    <!-- logo -->
+                    <div class="header-logo flex-0">
+                        <a href="#" class="header-logo__link"><img src="./images/logo-trang-1.png" alt="" class="header-logo__img"></a>
+                    </div>
+                    <!-- logo -->
+                    <div class="header-right flex-1 d-3xl-flex items-center gap-24">
+                        <!-- search -->
+                         <div class="header-search js__searchContainer">
+                            <div class="header-search__icon js__searchIcon">
+                                <img src="./images/svg/search.svg" alt="">
+                            </div>
+                            <div class="header-search__wrapper js__searchContent">
+                                <div class="header-search__close js__closeSearch">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <div class="header-search__form">
+                                    <form action="" class="relative">
+                                        <input type="text" class="search-input w-full h-full js__searchInput" placeholder="Tìm kiếm...">
+                                        <button class="search-btn">
+                                            <svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z" fill="currentColor"></path></svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                        <!-- end search -->
+                        <!-- navbar -->
+                         <ul class="navbar d-3xl-flex items-center gap-24">
+                            <!-- item -->
+                            <li class="navbar-item active">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Handbook</a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 1: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 2: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 3: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Tin tức</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Liên hệ</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Về chúng tôi</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item navbar-item-languageWrapper">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link navbar-item__language">
+                                        <div class="navbar-item__flag-icon">
+                                            <img src="./images/flag-vi.png" alt="">
+                                        </div>
+                                        <span class="navbar-item__text">Tiếng việt</span>
+                                    </a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-item__link navbar-item__language">
+                                                <div class="navbar-item__flag">
+                                                    <img src="./images/flag-co.png" alt="">
+                                                </div>
+                                                <span class="navbar-item__text">KO</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            
+                         </ul>
+                        <!-- end navbar -->
+
+                        <!-- menu mobile -->
+                        <div class="sub-menu d-3xl-none d-md-block">
+                            <!-- icon bar -->
+                            <div class="icon-bar js__clickShowMenuMb px-15 py-10">
+                                <img src="./images/svg/bar-w.svg" alt="">
+                            </div>
+                            <!-- end icon bar -->
+                            <!-- content -->
+                            <div class="sub-menu__content">
+                                <!-- close -->
+                                <div class="sub-menu__close js__closeSubMenu h-56 p-4 mb-8 d-3xl-flex items-center text-white">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <!-- end close -->
+
+                                <div class="sub-menu__container">
+                                    <!-- list -->
+                                    <div class="sub-menu__list">
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end list -->
+                                </div>
+                            </div>
+                            <!-- end content -->
+                            <div class="overlay js__overlay"></div>
+                        </div>
+                        <!-- end menu mobile -->
+                    </div>
+                </div>
+            </div>
+            <!-- end pc -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            
+            <!-- chapter primary -->
+            <section class="chapter-primary chapter-primary--7 relative z-20 over-hidden w-wrapper">
+                <div class="chapter-primary__container w-1290 d-3xl-flex items-center justify-between">
+                    <!-- content -->
+                     <div class="chapter-primary__content flex-1">
+                        <h1 class="chapter-primary__heading text-white fw-600 uppercase"><span class="chapter-primary__heading-inner">Chương 7:</span></h1>
+                        <h2 class="chapter-primary__title text-white fw-600 uppercase">SỨC KHỎE NGHỀ NGHIỆP, CHẤN THƯƠNG THƯỜNG GẶP, PHÒNG NGỪA VÀ XỬ LÝ</h2>
+                     </div>
+                    <!-- end content -->
+                    <!-- img -->
+                     <div class="chapter-primary__img flex-0 mx-auto">
+                        <img src="./images/chuong-7-1.png" alt="">
+                     </div>
+                    <!-- end img -->
+                </div>
+            </section>
+            <!-- end chapter primary -->
+
+            <!-- chapter secondary -->
+            <section class="chapter-secondary relative z-20 over-hidden w-wrapper">
+                <div class="chapter-secondary__container w-1290 d-3xl-flex">
+                    <!-- left -->
+                    <div class="chapter-secondary__left flex-0 text-gray-192">
+                        <!-- pc -->
+                         <div class="chapter-secondary__tableOfContent d-3xl-block d-lg-none">
+                            <h2 class="tableOfContent-headingParent fw-600 fs-20 uppercase">Mục lục:</h2>
+                            <ul class="tableOfContent-content">
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 1. THÔNG TIN VỀ HỆ THỐNG Y TẾ</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-1__1" class="tableOfContent-dropdown__link">1. Hệ thống y tế được tổ chức như thế nào tại Ả Rập Xê Út, liệu tôi có thể tìm được phòng khám hoặc bệnh viện nếu cảm thấy không khỏe không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-1__2" class="tableOfContent-dropdown__link">2. Nếu tôi làm xét nghiệm máu và các loại xét nghiệm chẩn đoán khác như: Chụp x-quang và cộng hưởng từ, tôi nên đến địa điểm n</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-1__3" class="tableOfContent-dropdown__link">3. Tôi có thể mua thuốc cho một bệnh nào đó nếu cần ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-1__4" class="tableOfContent-dropdown__link">4.  Nếu không có đơn thuốc, liệu tôi có thể mua thuốc không?</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 2. THÔNG TIN VỀ BẢO HIỂM Y TẾ</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__1" class="tableOfContent-dropdown__link">1. Tôi có đủ điều kiện tham gia bảo hiểm y tế không? Ai sẽ chi trả chi phí bảo hiểm của tôi?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__2" class="tableOfContent-dropdown__link">2. Bảo hiểm y tế của tôi sẽ chi trả những dịch vụ y tế nào? Liệu có dịch vụ y tế nào mà tôi phải đồng chi trả với bảo hiểm y tế của mình hay không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__3" class="tableOfContent-dropdown__link">3. Tôi có thể tìm hiểu thêm thông tin về bảo hiểm y tế của mình bằng cách nào?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 3. SỨC KHỎE TỔNG QUÁT, PHÚC LỢI VÀ HÒA NHẬP XÃ HỘI</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_3.html#chapter-3__1" class="tableOfContent-dropdown__link">1. Tôi nên làm thế nào để chuẩn bị tốt nhất cho sức khỏe tổng quát và thông tin sức khỏe cá nhân trước khi xuất cảnh đến làm việc tại Ả Rập Xê Út?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_3.html#chapter-3__2" class="tableOfContent-dropdown__link">2. Vì chưa quen với khẩu vị và món ăn tại Ả Rập Xê Út, tôi thường chỉ ăn cơm hoặc bánh mì cho no bụng. Tình trạng này khiến tôi lo ngại về chế độ dinh dưỡng. Làm thế nào để tôi có thể cân bằng chế độ ăn tốt hơn?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_3.html#chapter-3__3" class="tableOfContent-dropdown__link">3. Tôi từng đi bộ và tham gia nhiều hoạt động ngoài trời hơn khi ở quê nhà, ở đây tôi thấy bản thân quá mệt mỏi để tham gia thêm bất kỳ hoạt động thể chất nào. Do đó, tôi ngày càng tăng  cân, tôi nên làm gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_3.html#chapter-3__4" class="tableOfContent-dropdown__link">4. Tôi được biết rằng giữ gìn vệ sinh cá nhân là việc rất quan trọng để tránh mắc các bệnh, tôi có thể làm gì để chăm sóc bản thân và giữ gìn vệ sinh nhằm tránh bị bệnh?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_3.html#chapter-3__5" class="tableOfContent-dropdown__link">5.  Những yếu tố văn hóa và lối sống chung mà tôi cần cân nhắc khi sống tại Ả Rập Xê Út, chẳng hạn như loại quần áo tôi có thể mặc, các hành vi mà tôi nên tránh và cách sống chung là gì?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 4. PHÒNG NGỪA VÀ XỬ LÝ BỆNH TRUYỀN NHIỄM</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__1" class="tableOfContent-dropdown__link">1. Tôi đã bị ho suốt hơn ba tuần và cảm thấy không được khỏe. Tôi có các triệu chứng như: Sốt, ớn lạnh, đau ngực, mất cảm giác ăn uống và sụt cân. Không biết tôi đang bị mắc bệnh gì? Nếu chẩn đoán tôi bị mắc bệnh lao thì sẽ như thế nào? Tôi có thể đến đâu    để được giúp đỡ và chẩn đoán? </a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__2" class="tableOfContent-dropdown__link">2.  Gần đây, tôi nhận thấy da và mắt của mình bị vàng (vàng da), cảm giác lúc nào cũng mệt  mỏi, chán  ăn  và  sốt  nhẹ.  Tôi  nên  đến  đâu  và  cần làm  gì để  được chẩn  đoán?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__3" class="tableOfContent-dropdown__link">3.  Tôi bị sốt cao, đau đầu dữ dội, đau nhức toàn thân, buồn nôn và xuất hiện phát ban trên    da. Sau khi đi khám , bác sĩ kết luận tôi có thể bị sốt xuất huyết. Vậy các dấu hiệu và triệu    chứng của bệnh là gì? Điều trị bệnh như thế nào? Và làm thế nào để phòng ngừa bệnh    này? (Sốt xuất huyết )</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__4" class="tableOfContent-dropdown__link">4.  Đồng nghiệp của tôi đang bị cúm. Nếu bị lây cúm, tôi nên làm gì?   Tôi cần thực hiện    những biện pháp   nào để phòng tránh bị nhiễm cúm?</a>
+                                        </li>
+                                        
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__5" class="tableOfContent-dropdown__link">5.  Tôi có nghe tin đồn về một bệnh địa phương hoặc một dịch bệnh, tôi có thể kiểm    chứng  thông  tin  này  và  tìm  kiếm  sự  giúp  đỡ  từ  những  nguồn  tin  cậy  nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_4.html#chapter-4__6" class="tableOfContent-dropdown__link">6.  Các bước cần thực hiện khi bạn cảm thấy không khỏe hoặc bị ốm</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 5. SỨC KHỎE TÌNH DỤC VÀ SỨC KHỎE SINH SẢN</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__1" class="tableOfContent-dropdown__link">1.  Cơ quan sinh dục của tôi bị ngứa, đau và rát khi đi tiểu. Tôi nên làm gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__2" class="tableOfContent-dropdown__link">2.  Làm thế nào để tôi có thể tránh các bệnh lây truyền qua đường tình dục, và một số dấu    hiệu  và  triệu  chứng  phổ  biến  của  các  bệnh  này  là  gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__3" class="tableOfContent-dropdown__link">3.  Tôi có thể tránh thai bằng những phương pháp nào? Ở Ả Rập Xê Út có những phương pháp tránh thai nào ?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__4" class="tableOfContent-dropdown__link">4.  Tôi có thể đang mang thai, vậy tôi phải làm gì? Chính sách làm việc liên quan đến thai    sản tại Ả Rập Xê  Út  là  như thế nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__5" class="tableOfContent-dropdown__link">5.  Tôi có thể thực hiện việc phá thai tại Ả Rập Xê Út không?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 6. NHẬN BIẾT VÀ ỨNG PHÓ VỚI HÀNH VI QUẤY RỐI TÌNH DỤC</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__1" class="tableOfContent-dropdown__link">1.  Tôi biết rằng hành vi quấy rối tình dục có thể xảy ra với bất kỳ ai, nhưng tôi đang bối rối    về  cách  gọi  tên  hoặc  nhận  diện  chúng.  Bạn  có  thể  giúp  tôi  giải  thích  được  không</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__2" class="tableOfContent-dropdown__link">2.  Khi làm việc tại nhà, ông chủ của tôi thường chạm vào những vị trí như mông và ngực    mỗi lần đi ngang qua tôi. Tôi cảm thấy khó chịu và rất không thoải mái, nhưng tôi sợ    không dám yêu cầu ông ấy dừng lại Tôi có thể làm gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__3" class="tableOfContent-dropdown__link">3.  Ông chủ của tôi đã cưỡng hiếp tôi. Tôi rất sợ, tôi nên làm gì? Tôi nên đi đâu? Tôi nên liên    lạc với ai? </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem active">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 7.  SỨC KHỎE NGHỀ NGHIỆP - CHẤN THƯƠNG THƯỜNG GẶP, PHÒNG NGỪAVÀ XỬ LÝ</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__1" class="tableOfContent-dropdown__link">1. Công việc của tôi trong lĩnh vực xây dựng yêu cầu tôi thường xuyên phải mang,nâng,    kéo và đẩy nhiều vật nặng. Tôi có thể gặp phải những loại chấn thương phổ biến? Tôi có   thể làm gì để ngăn ngừa những loại chấn thương đó? Và nếu chấn thương xảy ra thì tôi   cần xử lý như thế nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__2" class="tableOfContent-dropdown__link">2. Trong lĩnh vực tôi làm việc, tôi thương bị trượt, ngã. Tôi có thể làm gì để ng ăn xảy rachấn    thương do trượt, ngã và nên xử lý ra sao nếu việc đó xảy ra?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__3" class="tableOfContent-dropdown__link">3. Trên những con phố đông đúc và thường xuyên tắc nghẽn của Ả Rập Xê Út, tôi đãnghe   nói về việc một số đồng nghiệp gặp tai nạn giao thông. Làm thế nào để tôingăn chặn và  xử lý nếu  chuyện này xảy ra với tôi?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__4" class="tableOfContent-dropdown__link">4. Tại trạm làm việc của tôi có rất nhiều dây điện rải rác xung quanh, và tôi luôn lo sợviệc   mình sẽ bị thương. Tôi có thể làm gì để ngăn ngừa thương tích do điện vànên xử lý ra    sao  nếu  việc  đó  xảy  ra?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__5" class="tableOfContent-dropdown__link">5. Vì tôi dọn nhà của chủ mỗi ngày, nên tôi sử dụng một số chất tẩy rửa mà tôi biết cóthể   gây hại cho sức khỏe của tôi. Tôi có thể làm gì để ngăn ngừa và xử lý khi tiếp xúc với hóa chất?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__6" class="tableOfContent-dropdown__link">6. Thời tiết ở Ả Rập Xê Út cực kỳ nóng, và tôi cảm thấy sức nóng từ mặt trời gây ranhững    cơn đau đầu. Tôi có thể làm gì để bảo vệ bản thân?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 8.  SỨC KHỎE TINH THẦN</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__1" class="tableOfContent-dropdown__link">1. Tôi đang gặp khó khăn trong việc thích nghi với cuộc sống tại Ả Rập Xê Út và cảmthấy lo   lắng mỗi ngày. Tại sao tôi lại rơi vào tình cảnh như vậy? Lo âu và trầm cảm cónhững   triệu  chứng  nào?  Tôi  nên  làm  gì  nếu  gặp  phải  các  triệu  chứng  này?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__2" class="tableOfContent-dropdown__link">2. Tôi rất nhớ gia đình và bạn bè trong quãng thời gian phải sống xa quê hương. Tôi cóthể    làm gì để làm vơi bớt nỗi nhớ nhà? Ở khu vực tôi đang sinh sống, có hoạtđộng xã hội  nào có thể giúp tôi bớt nhớ nhà không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__3" class="tableOfContent-dropdown__link">3. Tôi đang cảm thấy buồn bã, căng thẳng và có ý định tự tử. Tôi nên làm gì để vượtqua    cảm giác này?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__4" class="tableOfContent-dropdown__link">4. Tôi muốn được chuyên gia về sức khỏe tâm thần tư vấn. Tôi có thể tìm gặp chuyêngia    như  vậy  ở  đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__5" class="tableOfContent-dropdown__link">5. Tôi đang bị rủ rê thử dùng các loại ma túy như chất kích thích và cần sa. Liệu matúy có    nguy hiểm không? Ma túy có giúp tôi vượt qua cảm giác lo âu và buồn bãkhông?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_8.html#chapter-8__6" class="tableOfContent-dropdown__link">6. Tôi đã quen uống rượu. Liệu tôi có thể uống rượu ở Ả Rập Xê Út để giảm căng thẳngtrước hoặc sau khi làm việc không?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 9.  TÀI LIỆU BỔ SUNG</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_9.html#chapter-9__1" class="tableOfContent-dropdown__link">1.  Tôi có người thân đang làm việc tại Vương quốc Ả Rập Xê Út và bị tử vong trong quá    trình làm việc. Tôi nên liên lạc với ai?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_9.html#chapter-9__2" class="tableOfContent-dropdown__link">2.  Nếu tôi có người thân là lao động di cư tại Ả Rập Xê Út và không may bị tử vong, tôi và    gia  đình  tôi  có  được  nhận  trợ  cấp  gì  không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_9.html#chapter-9__3" class="tableOfContent-dropdown__link">3.  Tôi có người thân tử vong khi đang làm việc tại Ả Rập Xê Út. Tôi cần làm gì để đưa thi   thể hay tro cốt của người thân về Việt Nam?</a>
+                                        </li>
+                                        
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 
+                            </ul>
+                         </div>
+                        <!-- end pc -->
+                         <!-- mb -->
+                        <div class="chapter-secondary__menuFix d-3xl-none d-lg-block">
+                            <a href="#" class="chapter-secondary__menuFixLink">
+                                <div class="chapter-secondary__menuFixIcon">
+                                    <img src="./images/svg/bar-w.svg" alt="">
+                                </div>
+                                <span class="chapter-secondary__menuFixText">Mục lục</span>
+                            </a>
+                        </div>
+                         <!-- end mb -->
+                    </div>
+                    <!-- end left -->
+                    <!-- right -->
+                    <div class="chapter-secondary__right chapter-7 flex-1 text-gray-192">
+                        
+                        <!-- part one-->
+                        <div class="part-one-1" id="chapter-7__1">
+                            <div class="content">
+                                <div class="three-item d-3xl-flex items-center justify-between mb-20 w-800">
+                                    <div class="img three-item__img1 flex-0">
+                                        <img src="./images/arap-11.png" alt="" class="">
+                                    </div>
+                                    <div class="text flex-1 p-10 rounded-20 border-3px border-pink-b00 mx-10">
+                                        <h3 class="text-1 fs-20 fw-600">1. Công việc của tôi trong lĩnh vực xây dựng yêu cầu tôi thường xuyên phải mang, nâng, kéo và đẩy nhiều vật nặng. Tôi có thể gặp phải những loại chấn thương phổ biến? Tôi có thể làm gì để ngăn ngừa những loại chấn thương đó? Và nếu chấn thương xảy ra thì tôi cần xử lý như thế nào?</h3>
+                                    </div>
+                                </div>
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 my-20">
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between mb-20">
+                                        <div class="text flex-1 p-10">
+                                            <h3 class="text-1 fs-24 fw-900 mb-10">• Công việc xây dựng rất vất vả về mặt thể chất và có thể dẫn đến nhiều loại chấn thương khác nhau. </h3>
+                                            <p><strong>• Các loại chấn thương phổ biến bao gồm:</strong></p>
+                                            <p>➢ Căng cơ và bong gân: Việc nâng đồ vật quá nhiều hoặc sai cách có thể gây tổn thương cơ, đặc biệt là ở vùng lưng, vai và chân. </p>
+                                            <p>➢ Chấn thương vùng lưng: Việc mang vật nặng có thể gây tổn thương vùng lưng và dẫn đến cơn đau mãn tính. </p>
+                                            <p>➢ Viêm gân: Thực hiện một chuyển động lặp đi lặp lại có thể làm tổn thương gân (phần kết nối cơ với xương). </p>
+                                            <p>➢ Vết cắt: Làm việc với các công cụ hoặc vật sắc nhọn có thể gây ra các vết cắt hoặc trầy xước trên cơ thể. </p>
+                                            <p>➢ Té ngã: Bạn có thể bị ngã khi làm việc ở trên cao hoặc nơi có bề mặt không bằng phẳng. </p>
+                                            <p>➢ Chấn thương do chuyển động lặp đi lặp lại: Lặp lại một hành động nhiều lần có thể gây tổn thương các cơ hoặc khớp.</p>
+                                        </div>
+                                        <div class="img flex-0 w-sm-50 mx-auto">
+                                            <img src="./images/arap-15.png" alt="" class="">
+                                        </div>
+                                    </div>
+                                </div>  
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 flex-1 my-40">
+                                    <!-- heading -->
+                                    <div class="heading-taiwan-two p-10 text-center w-fit w-sm-80 ml-30 bg-pink-b00 px-20">
+                                        <h3 class="heading-one__text fs-24 fw-bold text-white">
+                                            Cách phòng ngừa:
+                                        </h3>
+                                    </div>
+                                    <!-- end heading -->
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between">
+                                        <div class="text flex-1 p-10">
+                                            <p>➢ Nâng đồ vật một cách an toàn: </p>
+                                            <p>➢ Cong đầu gối, giữ lưng thẳng và nâng vật nặng bằng cơ. </p>
+                                            <p>➢ Không được xoay người. </p>
+                                            <p>➢ Sử dụng thiết bị hỗ trợ: Sử dụng xe đẩy hoặc dụng cụ hỗ trợ để di chuyển vật nặng. </p>
+                                            <p>➢ Giãn cơ trước khi làm việc: Khởi động các cơ trước khi nâng vật nặng. </p>
+                                            <p>➢ Nghỉ ngơi: Giải lao trong quá trình làm việc để tránh cơ thể bị mệt mỏi. </p>
+                                            <p>➢ Mặc đúng đồ bảo hộ: Đi giày chắc chắn và đeo đai hỗ trợ lưng nếu cần thiết. </p>
+                                            <p>➢ Uống đủ nước và ăn đồ tốt cho sức khỏe. </p>
+                                            <p>➢ Giữ khu vực làm việc sạch sẽ: Không gian sạch sẽ, gọn gàng sẽ giúp giảm tình trạng bị ngã.</p>
+                                        </div>
+                                        <div class="img flex-0 w-sm-70 mx-auto d-3xl-flex items-center justify-center">
+                                            <img src="./images/arap-7-1.png" alt="" class="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block-document">
+                                    <div class="block-document__bg">
+                                        <img src="./images/bg-document.png" alt="">
+                                    </div>
+                                    <div class="block-document__container">
+                                        <div class="block-document__heading d-3xl-flex items-center">
+                                            <div class="pl-24 flex-1">
+                                                <h3 class="title fs-24 fw-bold text-italic">Các bước cần thực hiện khi gặp chấn thương:</h3>
+                                                <p>Đối với các chấn thương nhỏ như bong gân hoặc căng cơ, hãy áp dụng các phương pháp sau:</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="block-document__content d-3xl-flex items-start justify-between">
+                                            <!-- left -->
+                                            <div class="block-document__left flex-1">
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Nghỉ ngơi – Dừng việc đang làm.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Chườm đá – Chườm đá lên vùng bị thương để giảm sưng.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Băng bó – Dùng băng cứu thương để băng lại.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                               
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Nâng cao – Nâng cao vùng bị thương nếu có thể.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                               
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Nếu chấn thương nghiêm trọng, như cơn đau nặng hoặc vết cắt sâu, hãy đưa đến bác sĩ ngay lập tức.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                               
+                                            </div>
+                                            <!-- end left -->
+                                            <!-- right -->
+                                            <div class="block-document__right flex-1">
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Làm theo những gì bác sĩ chỉ định, bao gồm cả trị liệu nếu cần thiết.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Hiểu rõ quyền lợi của mình: Gọi cho Tổ chức bảo hiểm y tế xã hội tổng hợp theo số 800 124 3344 để tìm hiểu về quyền lợi bảo hiểm trong trường hợp thương tật.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Báo với người quản lý để hồ sơ sự việc được ghi lại chính xác.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                                <!-- item -->
+                                                <div class="block-document__item d-3xl-flex mb-15 w-full">
+                                                    <div class="flex-0" style="width: 40px;">
+                                                        <img src="./images/check-1.png" alt="">
+                                                    </div>
+                                                    <div class="flex-1 pl-10">
+                                                        <p>Nếu cần thiết, thực hiện các bài tập phục hồi để chữa lành vết thương và thương trong tương lai.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- item -->
+                                            </div>
+                                            <!-- end right -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block-img py-10">
+                                    <img src="./images/arap-7-2.png" alt="" class="mx-auto">
+                                </div>
+
+                                <div class="note note--pink-b00 mt-40 p-20 border-10 d-3xl-flex">
+                                    <div class="note-img">
+                                        <div class="note-img__inner"><img src="./images/svg/note-w.svg" alt=""></div>
+                                    </div>
+                                    <div class="note-des">
+                                        <p><strong>LƯU Ý QUAN TRỌNG:</strong></p>
+                                        <p>Người làm công việc giúp việc gia đình cần biết rằng, theo pháp luật của Ả Rập Xê Út (Điều 7), chủ lao động không được phép giao bất kỳ công việc nguy hiểm nào có thể gây nguy hiểm đến sức khỏe, gây chấn thương cơ thể hoặc làm tổn hại đến phẩm giá của người lao động theo bất kỳ cách nào. Luật này nhằm mục đích đảm bảo an toàn và bảo vệ quyền lợi chính đáng của bạn.</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- end part one -->
+
+                        <!-- part two -->
+                        <div class="part-two-1-1 mt-40 pt-40 mt-md-20 pt-md-20" id="chapter-7__2">
+                            <div class="content">
+                                <div class="three-item d-3xl-flex items-center justify-between mb-20 w-800">
+                                    <div class="img three-item__img1 flex-0">
+                                        <img src="./images/arap-1.png" alt="" class="">
+                                    </div>
+                                    <div class="text flex-1 p-10 rounded-20 border-3px border-pink-b00 mx-10">
+                                        <h3 class="text-1 fs-20 fw-600">2. Trong lĩnh vực tôi làm việc, tôi thương bị trượt, ngã. Tôi có thể làm gì để ngăn xảy ra chấn thương do trượt, ngã và nên xử lý ra sao nếu việc đó</h3>
+                                    </div>
+                                </div>
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 my-20">
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between mb-20">
+                                        <div class="text flex-1 p-10">
+                                            <h3 class="text-1 fs-24 fw-900 mb-10">• Việc bị vấp, trượt, ngã có thể xảy ra khi đang làm việc, nhưng phần lớn các tình huống có thể phòng ngừa.</h3>
+                                            <p><strong>• Cách phòng ngừa: </strong></p>
+                                            <p>➢ Quan sát kỹ không gian làm việc.</p>
+                                            <p>➢ Đi giày không trơn trượt và che bàn chân lại.</p>
+                                            <p>➢ Giữ sàn nhà gọn gàng - không có dây điện hoặc đồ vật trên sàn nhà.</p>
+                                            <p>➢ Nhanh chóng lau sạch vũng nước đổ và đặt biển báo “sàn ướt”.</p>
+                                            <p>➢ Nắm vào lan can trên cầu thang.</p>
+                                            <p>➢ Đảm bảo có đủ ánh sáng để nhìn rõ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 flex-1 my-40">
+                                    <!-- heading -->
+                                    <div class="heading-taiwan-two p-10 text-center w-fit w-sm-80 ml-30 bg-pink-b00 px-20">
+                                        <h3 class="heading-one__text fs-24 fw-bold text-white">
+                                            Các bước cần thực hiện khi gặp chấn thương:
+                                        </h3>
+                                    </div>
+                                    <!-- end heading -->
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between">
+                                        <div class="text flex-1 p-10">
+                                            <p>➢ Bình tĩnh và không đứng dậy quá nhanh. </p>
+                                            <p>➢ Kiểm tra xem bạn có bị đau hay chảy máu không. </p>
+                                            <p>➢ Nếu bạn bị đập đầu hay cảm thấy chóng mặt, hãy ngồi yên và nhờ giúp đỡ. </p>
+                                            <p>➢ Nếu bị đau hoặc chảy máu kéo dài, hãy đến khám bác sĩ. </p>
+                                            <p>➢ Liên hệ 911 để gọi cấp cứu. </p>
+                                            <p>➢ Báo cho người chủ về chấn thương của bạn. </p>
+                                            <p>➢ Liên hệ đường dây 800 124 3344 để tìm hiểu về trợ giúp khi bị thương tật.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end part two -->
+                        
+                        <!-- part three -->
+                        <div class="part-three-2 mt-40 pt-40 mt-md-20 pt-md-20" id="chapter-7__3">
+                            <div class="content">
+                                <div class="three-item d-3xl-flex items-center justify-between mb-20 w-800">
+                                    <div class="text flex-1 p-10 rounded-20 border-3px border-pink-b00 mx-10">
+                                        <h3 class="text-1 fs-20 fw-600">3. Trên những con phố đông đúc và thường xuyên tắc nghẽn của Ả Rập Xê Út, tôi đã nghe nói về việc một số đồng nghiệp gặp tai nạn giao thông. Làm thế nào để tôi ngăn chặn và xử lý nếu chuyện này xảy ra với tôi?</h3>
+                                    </div>
+                                    <div class="img three-item__img1 flex-0">
+                                        <img src="./images/arap-11.png" alt="" class="">
+                                    </div>
+                                </div>
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 my-40">
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between mb-20">
+                                        <div class="text flex-1 p-10">
+                                            <h3 class="text-1 fs-24 fw-900 mb-10">• Một số công việc có thể xảy ra rủi ro bị thương do tai nạn giao thông, nhưng bạn có thể ngăn chặn việc này xảy ra bằng cách cẩn thận hơn.</h3>
+                                            <p><strong>• Cách phòng ngừa: </strong></p>
+                                            <p>➢Luôn thắt dây an toàn. </p>
+                                            <p>➢ Không bao giờ sử dụng điện thoại khi đang lái xe.</p>
+                                            <p>➢ Tuân thủ giới hạn tốc độ. </p>
+                                            <p>➢ Không lái xe khi bạn cảm thấy mệt mỏi hoặc buồn ngủ. Nghỉ ngơi khi lái xe đường dài. </p>
+                                            <p>➢ Thường xuyên kiểm tra để đảm bảo phương tiện bạn điều khiển luôn trong tình trạng tốt. </p>
+                                            <p>➢ Tuân thủ quy định về an toàn giao thông tại Ả Rập Xê Út</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="border-10 border-3px border-pink-b00 p-15 flex-1 my-40">
+                                    <!-- heading -->
+                                    <div class="heading-taiwan-two p-10 text-center w-fit w-sm-80 ml-30 bg-pink-b00 px-20">
+                                        <h3 class="heading-one__text fs-24 fw-bold text-white">
+                                            Các bước cần thực hiện khi gặp tai nạn giao thông:
+                                        </h3>
+                                    </div>
+                                    <!-- end heading -->
+                                    <div class="two-item d-3xl-flex d-sm-block items-center justify-between">
+                                        <div class="text flex-1 p-10">
+                                            <p>➢ Di chuyển đến một nơi an toàn nếu bạn không bị thương. </p>
+                                            <p>➢ Gọi 911 để được trợ giúp khẩn cấp. </p>
+                                            <p>➢ Báo với người quản lý.</p>
+                                            <p>➢ Chụp ảnh và ghi lại những gì đã xảy ra, thông tin này sau này sẽ có ích.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block-img py-10">
+                                    <img src="./images/arap-7-3.png" alt="" class="mx-auto">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end part three -->
+
+                        <!-- part four -->
+                        <div class="part-four-2 mt-40 pt-40 mt-md-20 pt-md-20" id="chapter-7__4">
+                            <div class="content"></div>
+                        </div>
+                        <!-- end part four -->
+
+                        <!-- part five -->
+                        <div class="part-five-2 mt-40 pt-40 mt-md-20 pt-md-20" id="chapter-7__5">
+                            <div class="content"></div>
+                        </div>
+                        <!-- end part five -->
+
+                        <!-- part six -->
+                        <div class="part-six-2 mt-40 pt-40 mt-md-20 pt-md-20" id="chapter-7__6">
+                            <div class="content"></div>
+                        </div>
+                        <!-- end part six -->
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+            <!-- end chapter secondary -->
+
+            
+            <!-- quinary -->
+            <section class="main-quinary relative z-20 over-hidden w-wrapper">
+                <div class="main-quinary__container w-1290">
+                    <a href="">
+                        <img src="./images/footer.png" alt="" class="w-full" style="height: auto;">
+                    </a>
+                </div>
+            </section>
+            <!-- end quinary -->
+            
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative px-20 py-10">
+            <p class="footer-text text-center fs-15 text-gray-192">© Hanbook. All Rights reserved. Designer by Digotech.vn</p>
+            <!-- back top -->
+            <!-- <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div> -->
+            <!-- end back top -->
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
