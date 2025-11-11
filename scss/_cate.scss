@@ -466,6 +466,13 @@
                     background-color: #5080c1;
                 }
             }
+            &--purple-dcd {
+                border-color: #dcd9eb;
+                background-color: #dcd9eb;
+                .note-img__inner {
+                    background-color: #503f99;
+                }
+            }
 
             &-img {
                 width: 15%;
@@ -1275,6 +1282,25 @@
                     border-color: #c66aaa;
                     &:last-child {
                         border-color: #c66aaa;
+                    }
+                }
+            } 
+            &.table-border-purple-503 {
+                th {
+                    border-color: #503f99;
+                    background-color: #dcd9eb;
+                    &:first-child {
+                        overflow: hidden;
+                    }
+                    &:last-child {
+                        border-color: #503f99;
+                        overflow: hidden;
+                    }
+                }
+                td {
+                    border-color: #503f99;
+                    &:last-child {
+                        border-color: #503f99;
                     }
                 }
             } 
