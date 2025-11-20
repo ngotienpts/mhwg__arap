@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const formInputs = document.querySelectorAll(".comment-form-input");
 
 
+    const catalogueContainer = document.querySelector(".js__catalogueContainer");
+
+
 
 
     // Xử lý sự kiện khi nhấn nút "back to top"
@@ -42,6 +45,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
         })
+    }
+    // Xử lý sự kiện show catalogue ở handbook
+    function handleCatalogue() {
+        if(!catalogueContainer) return
+
+        const catalogue = catalogueContainer.querySelector('.js__catalogue');
+        const showCatalogue = catalogueContainer.querySelector('.js__showCatalogue');
+       
+        showCatalogue.onclick = function() {
+            catalogue.classList.toggle('active')
+        }
     }
 
     // Xử lý sự kiện show menu ở handbook
@@ -170,6 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // scroll
         handleWindowScroll();
         handleSearchNavbar();
+        handleCatalogue();
     }
 
     // Bắt đầu khởi tạo ứng dụng

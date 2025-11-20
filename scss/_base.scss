@@ -301,6 +301,9 @@ img {
 .text-yellow-f5 {
     color: #f5ae43;
 }
+.text-yellow-f6ae {
+    color: #f6ae42;
+}
 .text-cyan-49 {
     color: #49c8eb;
 }
@@ -332,6 +335,12 @@ img {
 }
 .bg-yellow-f6 {
     background-color: #f6ad44;
+}
+.bg-yellow-f6ae {
+    background-color: #f6ae42;
+}
+.bg-yellow-fed {
+    background-color: #fedba9;
 }
 .bg-yellow-fb {
     background-color: #FBF3BC;
@@ -1225,6 +1234,9 @@ img {
 .border-yellow-f5 {
     border: 1px solid #f5ae43;
 }
+.border-yellow-f6ae {
+    border: 1px solid #f6ae42;
+}
 .border-cyan-49 {
     border: 1px solid #49c8eb;
 }
@@ -1344,4 +1356,11 @@ img {
         clear: both;
         display: block;
     }
+}
+
+.border-b-yellow-f6ae {
+    border-bottom: 2px solid #f6ae42;
+}
+.border-b-33 {
+    border-bottom: 1px solid #333;
 }

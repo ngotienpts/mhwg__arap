@@ -318,6 +318,15 @@
         background-color: #6f2471;
     }
 }
+.chapter-primary--user-manual {
+    background-color: #fedba9;
+    .chapter-primary__heading-inner {
+        background-color: #f6ae42;
+    }
+    .chapter-primary__img {
+        background-color: #f6ae42;
+    }
+}
 
 .chapter-primary--iom {
     background-color: #f04141;
@@ -402,10 +411,10 @@
             }
             
             &--yellow {
-                border-color: #FBF3BC;
-                background-color: #FBF3BC;
+                border-color: #fedba9;
+                background-color: #fedba9;
                 .note-img__inner {
-                    background-color: #F5AE43;
+                    background-color: #f6ae42;
                 }
             }
 
@@ -1301,6 +1310,25 @@
                     border-color: #503f99;
                     &:last-child {
                         border-color: #503f99;
+                    }
+                }
+            } 
+            &.table-border-yellow-f6ae {
+                th {
+                    border-color: #f6ae42;
+                    background-color: #fedba9;
+                    &:first-child {
+                        overflow: hidden;
+                    }
+                    &:last-child {
+                        border-color: #f6ae42;
+                        overflow: hidden;
+                    }
+                }
+                td {
+                    border-color: #f6ae42;
+                    &:last-child {
+                        border-color: #f6ae42;
                     }
                 }
             } 
